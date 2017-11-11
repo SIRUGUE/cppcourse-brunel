@@ -1,0 +1,535 @@
+\hypertarget{classNeuron}{\section{Neuron Class Reference}
+\label{classNeuron}\index{Neuron@{Neuron}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNeuron_a8a7e6331f728054b09a0be46c13ebe5e}{Neuron} (int N, double M\-P, int N\-S, double T\-S, int T\-R, double j, double i, double d)
+\begin{DoxyCompactList}\small\item\em C\-O\-N\-S\-T\-R\-U\-C\-T\-O\-R. \end{DoxyCompactList}\item 
+\hyperlink{classNeuron_a823487d01615fadb8ac19a2768dd9d96}{Neuron} ()
+\begin{DoxyCompactList}\small\item\em C\-O\-N\-S\-T\-R\-U\-C\-T\-O\-R. \end{DoxyCompactList}\item 
+\hyperlink{classNeuron_a52e291efb1939ecf7e7536f7484f9103}{Neuron} (double n, double j)
+\begin{DoxyCompactList}\small\item\em C\-O\-N\-S\-T\-R\-U\-C\-T\-O\-R. \end{DoxyCompactList}\item 
+double \hyperlink{classNeuron_a86341dee7a81765fe4840777a008c688}{get\-Membrane\-Potential} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+int \hyperlink{classNeuron_ab1efa405eb0cd7bac6ca012c961efe5d}{get\-Nb\-Spikes} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+int \hyperlink{classNeuron_a1bb38a108b9f0e2a8ae553c9d036c01c}{get\-Time\-Refractory} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+double \hyperlink{classNeuron_a13b7bf51bf586b16137dd16cf746d05d}{get\-Time\-Spikes} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+double \hyperlink{classNeuron_ab0ed311cbece1a842ba31c33c6dc5dff}{get\-Vreset} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+double \hyperlink{classNeuron_a54020707519e2d6d0439a5783c2c7eae}{get\-Vthr} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+double \hyperlink{classNeuron_a7975f57efc1b76bb6cd56b51a902b606}{get\-Tau} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+double \hyperlink{classNeuron_adbe1dbd4186b3824b0882c41c0607bf8}{geth} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+double \hyperlink{classNeuron_a320ab48e220523371b266385c650e31f}{get\-J} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+double \hyperlink{classNeuron_ad87cfbd4f9f22155180692a2743a3618}{get\-Delay} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+int \hyperlink{classNeuron_a056ca88e9692b264a40176004ec1b877}{get\-N} () const 
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-R. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_acc5c70e280d6dac451a5c90934ab6ade}{set\-Membrane\-Potential} (double M\-P)
+\begin{DoxyCompactList}\small\item\em S\-E\-T\-T\-E\-U\-R. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_acd20415b7ad38f76ba2484febb1c1fb6}{set\-Nb\-Spikes} (int N\-P)
+\begin{DoxyCompactList}\small\item\em S\-E\-T\-T\-E\-U\-R. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_aad5ce50e5ce218ce48933979fd18981e}{set\-Time\-Spikes} (double T\-S)
+\begin{DoxyCompactList}\small\item\em S\-E\-T\-T\-E\-U\-R. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a146b0937c7bdfb599dac276150b42fbe}{set\-Time\-Refractory} (int Time\-Refractory)
+\begin{DoxyCompactList}\small\item\em S\-E\-T\-T\-E\-U\-R. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a1f78f39218708439988bdef25cf3d956}{set\-I} (double i)
+\begin{DoxyCompactList}\small\item\em S\-E\-T\-T\-E\-U\-R. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a5d32cc9f1adc9f5d2dca19496ce7bde1}{set\-Delay} (double d)
+\begin{DoxyCompactList}\small\item\em S\-E\-T\-T\-E\-U\-R. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a41a81d8527734e59bae39f73fece887f}{update\-Membrane\-Potential} ()
+\begin{DoxyCompactList}\small\item\em U\-P\-D\-A\-T\-E M\-E\-M\-B\-R\-A\-N\-E P\-O\-T\-E\-N\-T\-I\-A\-L W\-I\-T\-H\-O\-U\-T B\-A\-C\-K\-G\-R\-O\-U\-N\-D N\-O\-I\-S\-E. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a31ff80c9067c1064745cbd2c275fe432}{update\-Membrane\-Potential\-\_\-rand} ()
+\begin{DoxyCompactList}\small\item\em U\-P\-D\-A\-T\-E M\-E\-M\-B\-R\-A\-N\-E P\-O\-T\-E\-N\-T\-I\-A\-L W\-I\-T\-H B\-A\-C\-K\-G\-R\-O\-U\-N\-D N\-O\-I\-S\-E. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a1e11638d1b93fc89412c1b1cdaa3a866}{write} ()
+\begin{DoxyCompactList}\small\item\em W\-R\-I\-T\-E O\-N T\-H\-E F\-I\-L\-E T\-E\-S\-T.\-T\-X\-T T\-I\-M\-E\-S S\-P\-I\-K\-E\-S A\-N\-D N\-E\-U\-R\-O\-N N\-U\-M\-B\-E\-R T\-O C\-R\-E\-A\-T\-E G\-R\-A\-P\-H\-S. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a7a67992e7dd7e86861e5d6e7b3faf0d3}{update\-Neuron} (double tmin, double tmax, double i)
+\begin{DoxyCompactList}\small\item\em U\-P\-D\-A\-T\-E N\-E\-U\-R\-O\-N B\-E\-T\-W\-E\-N T\-M\-I\-N A\-N\-D T\-M\-A\-X. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a8c07fddc918b661b2f5112724cfe8e42}{update\-Neuron1} (double i)
+\begin{DoxyCompactList}\small\item\em U\-P\-D\-A\-T\-E N\-E\-U\-R\-O\-N O\-N\-L\-Y O\-N\-E T\-I\-M\-E (O\-N\-E S\-T\-E\-P) U\-S\-I\-N\-G U\-P\-D\-A\-T\-E\-M\-E\-M\-B\-R\-A\-N\-E\-P\-O\-T\-E\-N\-T\-I\-A\-L. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a2fffb8841ea5cb1cebf214b488884a22}{update\-Neuron1\-\_\-rand} (double i)
+\begin{DoxyCompactList}\small\item\em U\-P\-D\-A\-T\-E O\-N\-L\-Y O\-N\-E T\-I\-M\-E (O\-N\-E S\-T\-E\-P) U\-S\-I\-N\-G U\-P\-D\-A\-T\-E\-M\-E\-M\-B\-R\-A\-N\-E\-P\-O\-T\-E\-N\-T\-I\-A\-L\-\_\-\-R\-A\-N\-D. \end{DoxyCompactList}\item 
+void \hyperlink{classNeuron_a424cb8a700631171063a0899fb6c6df5}{add\-J} (int i, double j)
+\begin{DoxyCompactList}\small\item\em A\-D\-D J A\-T T\-H\-E P\-O\-S\-I\-T\-I\-O\-N i O\-F T\-H\-E B\-U\-F\-F\-E\-R. \end{DoxyCompactList}\item 
+\hypertarget{classNeuron_a94a250ce7e167760e593979b899745b1}{\hyperlink{classNeuron_a94a250ce7e167760e593979b899745b1}{$\sim$\-Neuron} ()}\label{classNeuron_a94a250ce7e167760e593979b899745b1}
+
+\begin{DoxyCompactList}\small\item\em D\-E\-S\-T\-R\-U\-C\-T\-O\-R. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classNeuron_a8a7e6331f728054b09a0be46c13ebe5e}{\index{Neuron@{Neuron}!Neuron@{Neuron}}
+\index{Neuron@{Neuron}!Neuron@{Neuron}}
+\subsubsection[{Neuron}]{\setlength{\rightskip}{0pt plus 5cm}Neuron\-::\-Neuron (
+\begin{DoxyParamCaption}
+\item[{int}]{n = {\ttfamily 1}, }
+\item[{double}]{M\-P = {\ttfamily 0.0}, }
+\item[{int}]{N\-S = {\ttfamily 0}, }
+\item[{double}]{T\-S = {\ttfamily 0.0}, }
+\item[{int}]{T\-R = {\ttfamily 0}, }
+\item[{double}]{j = {\ttfamily 0.1}, }
+\item[{double}]{i = {\ttfamily 0.0}, }
+\item[{double}]{d = {\ttfamily 1.5}}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a8a7e6331f728054b09a0be46c13ebe5e}
+
+
+C\-O\-N\-S\-T\-R\-U\-C\-T\-O\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & \-:neuron number \\
+\hline
+{\em M\-P} & \-: membrane potential \\
+\hline
+{\em N\-S} & \-: number of spikes \\
+\hline
+{\em T\-S} & \-: time spikes \\
+\hline
+{\em T\-R} & \-: time refractory \\
+\hline
+{\em j} & \-: value given to other neurons when the neuron spikes \\
+\hline
+{\em i} & \-: Input current \\
+\hline
+{\em d} & \-: delay \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_a823487d01615fadb8ac19a2768dd9d96}{\index{Neuron@{Neuron}!Neuron@{Neuron}}
+\index{Neuron@{Neuron}!Neuron@{Neuron}}
+\subsubsection[{Neuron}]{\setlength{\rightskip}{0pt plus 5cm}Neuron\-::\-Neuron (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a823487d01615fadb8ac19a2768dd9d96}
+
+
+C\-O\-N\-S\-T\-R\-U\-C\-T\-O\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & \-:neuron number \\
+\hline
+{\em M\-P} & \-: membrane potential \\
+\hline
+{\em N\-S} & \-: number of spikes \\
+\hline
+{\em T\-S} & \-: time spikes \\
+\hline
+{\em T\-R} & \-: time refractory \\
+\hline
+{\em j} & \-: value given to other neurons when the neuron spikes \\
+\hline
+{\em i} & \-: Input current \\
+\hline
+{\em d} & \-: delay \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_a52e291efb1939ecf7e7536f7484f9103}{\index{Neuron@{Neuron}!Neuron@{Neuron}}
+\index{Neuron@{Neuron}!Neuron@{Neuron}}
+\subsubsection[{Neuron}]{\setlength{\rightskip}{0pt plus 5cm}Neuron\-::\-Neuron (
+\begin{DoxyParamCaption}
+\item[{double}]{n, }
+\item[{double}]{j}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a52e291efb1939ecf7e7536f7484f9103}
+
+
+C\-O\-N\-S\-T\-R\-U\-C\-T\-O\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & \-:neuron number \\
+\hline
+{\em j} & \-: value given to other neurons when the neuron spikes \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classNeuron_a424cb8a700631171063a0899fb6c6df5}{\index{Neuron@{Neuron}!add\-J@{add\-J}}
+\index{add\-J@{add\-J}!Neuron@{Neuron}}
+\subsubsection[{add\-J}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::add\-J (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{double}]{j}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a424cb8a700631171063a0899fb6c6df5}
+
+
+A\-D\-D J A\-T T\-H\-E P\-O\-S\-I\-T\-I\-O\-N i O\-F T\-H\-E B\-U\-F\-F\-E\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \-: position in the buffer \\
+\hline
+{\em j} & \-: value to add in the right position of buffer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classNeuron_ad87cfbd4f9f22155180692a2743a3618}{\index{Neuron@{Neuron}!get\-Delay@{get\-Delay}}
+\index{get\-Delay@{get\-Delay}!Neuron@{Neuron}}
+\subsubsection[{get\-Delay}]{\setlength{\rightskip}{0pt plus 5cm}double Neuron\-::get\-Delay (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_ad87cfbd4f9f22155180692a2743a3618}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: delay 
+\end{DoxyReturn}
+\hypertarget{classNeuron_adbe1dbd4186b3824b0882c41c0607bf8}{\index{Neuron@{Neuron}!geth@{geth}}
+\index{geth@{geth}!Neuron@{Neuron}}
+\subsubsection[{geth}]{\setlength{\rightskip}{0pt plus 5cm}double Neuron\-::geth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_adbe1dbd4186b3824b0882c41c0607bf8}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: h 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a320ab48e220523371b266385c650e31f}{\index{Neuron@{Neuron}!get\-J@{get\-J}}
+\index{get\-J@{get\-J}!Neuron@{Neuron}}
+\subsubsection[{get\-J}]{\setlength{\rightskip}{0pt plus 5cm}double Neuron\-::get\-J (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_a320ab48e220523371b266385c650e31f}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: J 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a86341dee7a81765fe4840777a008c688}{\index{Neuron@{Neuron}!get\-Membrane\-Potential@{get\-Membrane\-Potential}}
+\index{get\-Membrane\-Potential@{get\-Membrane\-Potential}!Neuron@{Neuron}}
+\subsubsection[{get\-Membrane\-Potential}]{\setlength{\rightskip}{0pt plus 5cm}double Neuron\-::get\-Membrane\-Potential (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_a86341dee7a81765fe4840777a008c688}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: Membrane\-Potential 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a056ca88e9692b264a40176004ec1b877}{\index{Neuron@{Neuron}!get\-N@{get\-N}}
+\index{get\-N@{get\-N}!Neuron@{Neuron}}
+\subsubsection[{get\-N}]{\setlength{\rightskip}{0pt plus 5cm}int Neuron\-::get\-N (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_a056ca88e9692b264a40176004ec1b877}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: N 
+\end{DoxyReturn}
+\hypertarget{classNeuron_ab1efa405eb0cd7bac6ca012c961efe5d}{\index{Neuron@{Neuron}!get\-Nb\-Spikes@{get\-Nb\-Spikes}}
+\index{get\-Nb\-Spikes@{get\-Nb\-Spikes}!Neuron@{Neuron}}
+\subsubsection[{get\-Nb\-Spikes}]{\setlength{\rightskip}{0pt plus 5cm}int Neuron\-::get\-Nb\-Spikes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_ab1efa405eb0cd7bac6ca012c961efe5d}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: Nb\-Spikes 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a7975f57efc1b76bb6cd56b51a902b606}{\index{Neuron@{Neuron}!get\-Tau@{get\-Tau}}
+\index{get\-Tau@{get\-Tau}!Neuron@{Neuron}}
+\subsubsection[{get\-Tau}]{\setlength{\rightskip}{0pt plus 5cm}double Neuron\-::get\-Tau (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_a7975f57efc1b76bb6cd56b51a902b606}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: tau 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a1bb38a108b9f0e2a8ae553c9d036c01c}{\index{Neuron@{Neuron}!get\-Time\-Refractory@{get\-Time\-Refractory}}
+\index{get\-Time\-Refractory@{get\-Time\-Refractory}!Neuron@{Neuron}}
+\subsubsection[{get\-Time\-Refractory}]{\setlength{\rightskip}{0pt plus 5cm}int Neuron\-::get\-Time\-Refractory (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_a1bb38a108b9f0e2a8ae553c9d036c01c}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: Time\-Refractory 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a13b7bf51bf586b16137dd16cf746d05d}{\index{Neuron@{Neuron}!get\-Time\-Spikes@{get\-Time\-Spikes}}
+\index{get\-Time\-Spikes@{get\-Time\-Spikes}!Neuron@{Neuron}}
+\subsubsection[{get\-Time\-Spikes}]{\setlength{\rightskip}{0pt plus 5cm}double Neuron\-::get\-Time\-Spikes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_a13b7bf51bf586b16137dd16cf746d05d}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: Time\-Spikes 
+\end{DoxyReturn}
+\hypertarget{classNeuron_ab0ed311cbece1a842ba31c33c6dc5dff}{\index{Neuron@{Neuron}!get\-Vreset@{get\-Vreset}}
+\index{get\-Vreset@{get\-Vreset}!Neuron@{Neuron}}
+\subsubsection[{get\-Vreset}]{\setlength{\rightskip}{0pt plus 5cm}double Neuron\-::get\-Vreset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_ab0ed311cbece1a842ba31c33c6dc5dff}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: Vreset 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a54020707519e2d6d0439a5783c2c7eae}{\index{Neuron@{Neuron}!get\-Vthr@{get\-Vthr}}
+\index{get\-Vthr@{get\-Vthr}!Neuron@{Neuron}}
+\subsubsection[{get\-Vthr}]{\setlength{\rightskip}{0pt plus 5cm}double Neuron\-::get\-Vthr (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNeuron_a54020707519e2d6d0439a5783c2c7eae}
+
+
+G\-E\-T\-T\-E\-R. 
+
+\begin{DoxyReturn}{Returns}
+\-: Vthr 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a5d32cc9f1adc9f5d2dca19496ce7bde1}{\index{Neuron@{Neuron}!set\-Delay@{set\-Delay}}
+\index{set\-Delay@{set\-Delay}!Neuron@{Neuron}}
+\subsubsection[{set\-Delay}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::set\-Delay (
+\begin{DoxyParamCaption}
+\item[{double}]{d}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a5d32cc9f1adc9f5d2dca19496ce7bde1}
+
+
+S\-E\-T\-T\-E\-U\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & \-: value affected to delay \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_a1f78f39218708439988bdef25cf3d956}{\index{Neuron@{Neuron}!set\-I@{set\-I}}
+\index{set\-I@{set\-I}!Neuron@{Neuron}}
+\subsubsection[{set\-I}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::set\-I (
+\begin{DoxyParamCaption}
+\item[{double}]{i}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a1f78f39218708439988bdef25cf3d956}
+
+
+S\-E\-T\-T\-E\-U\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \-: value affected to Iext \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_acc5c70e280d6dac451a5c90934ab6ade}{\index{Neuron@{Neuron}!set\-Membrane\-Potential@{set\-Membrane\-Potential}}
+\index{set\-Membrane\-Potential@{set\-Membrane\-Potential}!Neuron@{Neuron}}
+\subsubsection[{set\-Membrane\-Potential}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::set\-Membrane\-Potential (
+\begin{DoxyParamCaption}
+\item[{double}]{M\-B}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_acc5c70e280d6dac451a5c90934ab6ade}
+
+
+S\-E\-T\-T\-E\-U\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em M\-B} & \-: value affected to Membrane\-Potential \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_acd20415b7ad38f76ba2484febb1c1fb6}{\index{Neuron@{Neuron}!set\-Nb\-Spikes@{set\-Nb\-Spikes}}
+\index{set\-Nb\-Spikes@{set\-Nb\-Spikes}!Neuron@{Neuron}}
+\subsubsection[{set\-Nb\-Spikes}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::set\-Nb\-Spikes (
+\begin{DoxyParamCaption}
+\item[{int}]{N\-S}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_acd20415b7ad38f76ba2484febb1c1fb6}
+
+
+S\-E\-T\-T\-E\-U\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em N\-S} & \-: value affected to Nb\-Spikes \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_a146b0937c7bdfb599dac276150b42fbe}{\index{Neuron@{Neuron}!set\-Time\-Refractory@{set\-Time\-Refractory}}
+\index{set\-Time\-Refractory@{set\-Time\-Refractory}!Neuron@{Neuron}}
+\subsubsection[{set\-Time\-Refractory}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::set\-Time\-Refractory (
+\begin{DoxyParamCaption}
+\item[{int}]{T\-R}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a146b0937c7bdfb599dac276150b42fbe}
+
+
+S\-E\-T\-T\-E\-U\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T\-R} & \-: value affected to Time\-Refractory \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_aad5ce50e5ce218ce48933979fd18981e}{\index{Neuron@{Neuron}!set\-Time\-Spikes@{set\-Time\-Spikes}}
+\index{set\-Time\-Spikes@{set\-Time\-Spikes}!Neuron@{Neuron}}
+\subsubsection[{set\-Time\-Spikes}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::set\-Time\-Spikes (
+\begin{DoxyParamCaption}
+\item[{double}]{T\-S}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_aad5ce50e5ce218ce48933979fd18981e}
+
+
+S\-E\-T\-T\-E\-U\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T\-S} & \-: value affected to Time\-Spikes \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_a41a81d8527734e59bae39f73fece887f}{\index{Neuron@{Neuron}!update\-Membrane\-Potential@{update\-Membrane\-Potential}}
+\index{update\-Membrane\-Potential@{update\-Membrane\-Potential}!Neuron@{Neuron}}
+\subsubsection[{update\-Membrane\-Potential}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::update\-Membrane\-Potential (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a41a81d8527734e59bae39f73fece887f}
+
+
+U\-P\-D\-A\-T\-E M\-E\-M\-B\-R\-A\-N\-E P\-O\-T\-E\-N\-T\-I\-A\-L W\-I\-T\-H\-O\-U\-T B\-A\-C\-K\-G\-R\-O\-U\-N\-D N\-O\-I\-S\-E. 
+
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a31ff80c9067c1064745cbd2c275fe432}{\index{Neuron@{Neuron}!update\-Membrane\-Potential\-\_\-rand@{update\-Membrane\-Potential\-\_\-rand}}
+\index{update\-Membrane\-Potential\-\_\-rand@{update\-Membrane\-Potential\-\_\-rand}!Neuron@{Neuron}}
+\subsubsection[{update\-Membrane\-Potential\-\_\-rand}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::update\-Membrane\-Potential\-\_\-rand (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a31ff80c9067c1064745cbd2c275fe432}
+
+
+U\-P\-D\-A\-T\-E M\-E\-M\-B\-R\-A\-N\-E P\-O\-T\-E\-N\-T\-I\-A\-L W\-I\-T\-H B\-A\-C\-K\-G\-R\-O\-U\-N\-D N\-O\-I\-S\-E. 
+
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a7a67992e7dd7e86861e5d6e7b3faf0d3}{\index{Neuron@{Neuron}!update\-Neuron@{update\-Neuron}}
+\index{update\-Neuron@{update\-Neuron}!Neuron@{Neuron}}
+\subsubsection[{update\-Neuron}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::update\-Neuron (
+\begin{DoxyParamCaption}
+\item[{double}]{tmin, }
+\item[{double}]{tmax, }
+\item[{double}]{i}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a7a67992e7dd7e86861e5d6e7b3faf0d3}
+
+
+U\-P\-D\-A\-T\-E N\-E\-U\-R\-O\-N B\-E\-T\-W\-E\-N T\-M\-I\-N A\-N\-D T\-M\-A\-X. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tmin} & \-: min time to update neuron \\
+\hline
+{\em tmax} & \-: max time to update neuron \\
+\hline
+{\em i} & \-: inpute current of neuron \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNeuron_a8c07fddc918b661b2f5112724cfe8e42}{\index{Neuron@{Neuron}!update\-Neuron1@{update\-Neuron1}}
+\index{update\-Neuron1@{update\-Neuron1}!Neuron@{Neuron}}
+\subsubsection[{update\-Neuron1}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::update\-Neuron1 (
+\begin{DoxyParamCaption}
+\item[{double}]{i}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a8c07fddc918b661b2f5112724cfe8e42}
+
+
+U\-P\-D\-A\-T\-E N\-E\-U\-R\-O\-N O\-N\-L\-Y O\-N\-E T\-I\-M\-E (O\-N\-E S\-T\-E\-P) U\-S\-I\-N\-G U\-P\-D\-A\-T\-E\-M\-E\-M\-B\-R\-A\-N\-E\-P\-O\-T\-E\-N\-T\-I\-A\-L. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \-: input current \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a2fffb8841ea5cb1cebf214b488884a22}{\index{Neuron@{Neuron}!update\-Neuron1\-\_\-rand@{update\-Neuron1\-\_\-rand}}
+\index{update\-Neuron1\-\_\-rand@{update\-Neuron1\-\_\-rand}!Neuron@{Neuron}}
+\subsubsection[{update\-Neuron1\-\_\-rand}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::update\-Neuron1\-\_\-rand (
+\begin{DoxyParamCaption}
+\item[{double}]{i}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a2fffb8841ea5cb1cebf214b488884a22}
+
+
+U\-P\-D\-A\-T\-E O\-N\-L\-Y O\-N\-E T\-I\-M\-E (O\-N\-E S\-T\-E\-P) U\-S\-I\-N\-G U\-P\-D\-A\-T\-E\-M\-E\-M\-B\-R\-A\-N\-E\-P\-O\-T\-E\-N\-T\-I\-A\-L\-\_\-\-R\-A\-N\-D. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \-: input current \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classNeuron_a1e11638d1b93fc89412c1b1cdaa3a866}{\index{Neuron@{Neuron}!write@{write}}
+\index{write@{write}!Neuron@{Neuron}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}void Neuron\-::write (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classNeuron_a1e11638d1b93fc89412c1b1cdaa3a866}
+
+
+W\-R\-I\-T\-E O\-N T\-H\-E F\-I\-L\-E T\-E\-S\-T.\-T\-X\-T T\-I\-M\-E\-S S\-P\-I\-K\-E\-S A\-N\-D N\-E\-U\-R\-O\-N N\-U\-M\-B\-E\-R T\-O C\-R\-E\-A\-T\-E G\-R\-A\-P\-H\-S. 
+
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+neuron.\-hpp\item 
+neuron.\-cpp\end{DoxyCompactItemize}

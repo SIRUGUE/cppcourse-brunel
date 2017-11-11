@@ -1,0 +1,34 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec887878296/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec887878296.dir/build.make CMakeFiles/cmTryCompileExec887878296.dir/build
+make[1]: Entering directory `/home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec887878296.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec887878296.dir/CheckSymbolExists.c.o   -c /home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec887878296
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec887878296.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec887878296.dir/CheckSymbolExists.c.o  -o cmTryCompileExec887878296 -rdynamic 
+CMakeFiles/cmTryCompileExec887878296.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec887878296] Error 1
+make: *** [cmTryCompileExec887878296/fast] Error 2
+
+File /home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

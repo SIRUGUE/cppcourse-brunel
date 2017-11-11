@@ -1,0 +1,4 @@
+/home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/CMakeFiles/neuron.dir
+/home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/CMakeFiles/unit_test.dir
+/home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/gtest/CMakeFiles/gtest.dir
+/home/INTRANET/sirugue/myfiles/cpp/ba3/cs116-2017-pascaline-sirugue/src/build/gtest/CMakeFiles/gtest_main.dir

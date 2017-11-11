@@ -1,0 +1,161 @@
+\hypertarget{classTwoNeurons}{\section{Two\-Neurons Class Reference}
+\label{classTwoNeurons}\index{Two\-Neurons@{Two\-Neurons}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classTwoNeurons_a8598c5d4c84faaafd58499cf49081b2a}{\hyperlink{classTwoNeurons_a8598c5d4c84faaafd58499cf49081b2a}{Two\-Neurons} ()}\label{classTwoNeurons_a8598c5d4c84faaafd58499cf49081b2a}
+
+\begin{DoxyCompactList}\small\item\em first constructor without argument \end{DoxyCompactList}\item 
+\hyperlink{classTwoNeurons_a3b5013b6a44f0e125245e46571955661}{Two\-Neurons} (\hyperlink{classNeuron}{Neuron} n1, \hyperlink{classNeuron}{Neuron} n2, double t)
+\begin{DoxyCompactList}\small\item\em second constructor with some arguments \end{DoxyCompactList}\item 
+\hyperlink{classNeuron}{Neuron} \hyperlink{classTwoNeurons_ab1904a55d7ef62ddd3e1d95f74436944}{get\-Neuron1} ()
+\begin{DoxyCompactList}\small\item\em getteurs \end{DoxyCompactList}\item 
+\hyperlink{classNeuron}{Neuron} \hyperlink{classTwoNeurons_aa934ca7ed7e9ac51476b0a421d3730c6}{get\-Neuron2} ()
+\begin{DoxyCompactList}\small\item\em getteur \end{DoxyCompactList}\item 
+void \hyperlink{classTwoNeurons_a20dd786e22fa6cc02d76a84c412d4204}{set\-Time} (double t)
+\begin{DoxyCompactList}\small\item\em setteur \end{DoxyCompactList}\item 
+void \hyperlink{classTwoNeurons_ad7cb069e757a08d6c069b78de52dcc6e}{simulationloop1} (double tmin, double tmax, double i1, double i2)
+\begin{DoxyCompactList}\small\item\em simulation loop without delay \-: without using the buffer \end{DoxyCompactList}\item 
+void \hyperlink{classTwoNeurons_aea83e6484a79423d629c6984e3c896c6}{simulationloop2} (double tmin, double tmax, double i1, double i2)
+\begin{DoxyCompactList}\small\item\em simulation loop with delay \-: using buffer \end{DoxyCompactList}\item 
+\hypertarget{classTwoNeurons_aab1b1662b07d9068a4b3865917e8c02a}{\hyperlink{classTwoNeurons_aab1b1662b07d9068a4b3865917e8c02a}{$\sim$\-Two\-Neurons} ()}\label{classTwoNeurons_aab1b1662b07d9068a4b3865917e8c02a}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classTwoNeurons_a3b5013b6a44f0e125245e46571955661}{\index{Two\-Neurons@{Two\-Neurons}!Two\-Neurons@{Two\-Neurons}}
+\index{Two\-Neurons@{Two\-Neurons}!TwoNeurons@{Two\-Neurons}}
+\subsubsection[{Two\-Neurons}]{\setlength{\rightskip}{0pt plus 5cm}Two\-Neurons\-::\-Two\-Neurons (
+\begin{DoxyParamCaption}
+\item[{{\bf Neuron}}]{n1, }
+\item[{{\bf Neuron}}]{n2, }
+\item[{double}]{t = {\ttfamily 0.0}}
+\end{DoxyParamCaption}
+)}}\label{classTwoNeurons_a3b5013b6a44f0e125245e46571955661}
+
+
+second constructor with some arguments 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n1} & the first neuron \\
+\hline
+{\em n2} & \-: the second neuron \\
+\hline
+{\em t} & \-: time initialized to 0.\-0 \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classTwoNeurons_ab1904a55d7ef62ddd3e1d95f74436944}{\index{Two\-Neurons@{Two\-Neurons}!get\-Neuron1@{get\-Neuron1}}
+\index{get\-Neuron1@{get\-Neuron1}!TwoNeurons@{Two\-Neurons}}
+\subsubsection[{get\-Neuron1}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Neuron} Two\-Neurons\-::get\-Neuron1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classTwoNeurons_ab1904a55d7ef62ddd3e1d95f74436944}
+
+
+getteurs 
+
+\begin{DoxyReturn}{Returns}
+\-: neuron1 
+\end{DoxyReturn}
+\hypertarget{classTwoNeurons_aa934ca7ed7e9ac51476b0a421d3730c6}{\index{Two\-Neurons@{Two\-Neurons}!get\-Neuron2@{get\-Neuron2}}
+\index{get\-Neuron2@{get\-Neuron2}!TwoNeurons@{Two\-Neurons}}
+\subsubsection[{get\-Neuron2}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Neuron} Two\-Neurons\-::get\-Neuron2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classTwoNeurons_aa934ca7ed7e9ac51476b0a421d3730c6}
+
+
+getteur 
+
+\begin{DoxyReturn}{Returns}
+\-: neuron2 
+\end{DoxyReturn}
+\hypertarget{classTwoNeurons_a20dd786e22fa6cc02d76a84c412d4204}{\index{Two\-Neurons@{Two\-Neurons}!set\-Time@{set\-Time}}
+\index{set\-Time@{set\-Time}!TwoNeurons@{Two\-Neurons}}
+\subsubsection[{set\-Time}]{\setlength{\rightskip}{0pt plus 5cm}void Two\-Neurons\-::set\-Time (
+\begin{DoxyParamCaption}
+\item[{double}]{t}
+\end{DoxyParamCaption}
+)}}\label{classTwoNeurons_a20dd786e22fa6cc02d76a84c412d4204}
+
+
+setteur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \-: time affected to clock \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classTwoNeurons_ad7cb069e757a08d6c069b78de52dcc6e}{\index{Two\-Neurons@{Two\-Neurons}!simulationloop1@{simulationloop1}}
+\index{simulationloop1@{simulationloop1}!TwoNeurons@{Two\-Neurons}}
+\subsubsection[{simulationloop1}]{\setlength{\rightskip}{0pt plus 5cm}void Two\-Neurons\-::simulationloop1 (
+\begin{DoxyParamCaption}
+\item[{double}]{tmin, }
+\item[{double}]{tmax, }
+\item[{double}]{i1, }
+\item[{double}]{i2}
+\end{DoxyParamCaption}
+)}}\label{classTwoNeurons_ad7cb069e757a08d6c069b78de52dcc6e}
+
+
+simulation loop without delay \-: without using the buffer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tmin} & \-: minimum time for the simulation \\
+\hline
+{\em tmax} & \-: maximum time for the simulation \\
+\hline
+{\em i1} & \-: input current for the neuron 1 \\
+\hline
+{\em i2} & \-: input current for the neuron 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classTwoNeurons_aea83e6484a79423d629c6984e3c896c6}{\index{Two\-Neurons@{Two\-Neurons}!simulationloop2@{simulationloop2}}
+\index{simulationloop2@{simulationloop2}!TwoNeurons@{Two\-Neurons}}
+\subsubsection[{simulationloop2}]{\setlength{\rightskip}{0pt plus 5cm}void Two\-Neurons\-::simulationloop2 (
+\begin{DoxyParamCaption}
+\item[{double}]{tmin, }
+\item[{double}]{tmax, }
+\item[{double}]{i1, }
+\item[{double}]{i2}
+\end{DoxyParamCaption}
+)}}\label{classTwoNeurons_aea83e6484a79423d629c6984e3c896c6}
+
+
+simulation loop with delay \-: using buffer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tmin} & \-: minimum time \\
+\hline
+{\em tmax} & \-: maximum time \\
+\hline
+{\em i1} & \-: input current for the neuron 1 \\
+\hline
+{\em i2} & \-: input current the neuron 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+twoneurons.\-hpp\item 
+twoneurons.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,121 @@
+\hypertarget{classNetwork}{\section{Network Class Reference}
+\label{classNetwork}\index{Network@{Network}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNetwork_a3cc2fb4f8fa4d507077e8da85ce5a1c8}{Network} ()
+\begin{DoxyCompactList}\small\item\em C\-O\-N\-S\-T\-R\-U\-C\-T\-O\-R. \end{DoxyCompactList}\item 
+int \hyperlink{classNetwork_ac6ad672f621df7948183b994a5a4d6f9}{get\-Connexions} (int i, int j)
+\begin{DoxyCompactList}\small\item\em G\-E\-T\-T\-E\-U\-R. \end{DoxyCompactList}\item 
+void \hyperlink{classNetwork_a07559592f9709c9ecdc4a2d0134965ec}{set\-Connexions} (int i, int j, int n)
+\begin{DoxyCompactList}\small\item\em S\-E\-T\-T\-E\-U\-R \-: \end{DoxyCompactList}\item 
+void \hyperlink{classNetwork_aa04fb62a678f2b9729010c5fcbd16b56}{Neuron\-Connexions} ()
+\item 
+void \hyperlink{classNetwork_a6564e403499533e4f6c254400043fba2}{simulation\-Loop} (double tmin, double tmax)
+\begin{DoxyCompactList}\small\item\em update the network betwen tmin and tmax \end{DoxyCompactList}\item 
+\hypertarget{classNetwork_a7a4e19cdb4bf0c7ecf82baa643831492}{\hyperlink{classNetwork_a7a4e19cdb4bf0c7ecf82baa643831492}{$\sim$\-Network} ()}\label{classNetwork_a7a4e19cdb4bf0c7ecf82baa643831492}
+
+\begin{DoxyCompactList}\small\item\em D\-E\-S\-T\-R\-U\-C\-T\-O\-R. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classNetwork_a3cc2fb4f8fa4d507077e8da85ce5a1c8}{\index{Network@{Network}!Network@{Network}}
+\index{Network@{Network}!Network@{Network}}
+\subsubsection[{Network}]{\setlength{\rightskip}{0pt plus 5cm}Network\-::\-Network (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classNetwork_a3cc2fb4f8fa4d507077e8da85ce5a1c8}
+
+
+C\-O\-N\-S\-T\-R\-U\-C\-T\-O\-R. 
+
+we create 10000 excitatory neurons \& 25000 inhibitory neurons and we create a tab (size 12500x12500) representing our neurons connexions 
+
+\subsection{Member Function Documentation}
+\hypertarget{classNetwork_ac6ad672f621df7948183b994a5a4d6f9}{\index{Network@{Network}!get\-Connexions@{get\-Connexions}}
+\index{get\-Connexions@{get\-Connexions}!Network@{Network}}
+\subsubsection[{get\-Connexions}]{\setlength{\rightskip}{0pt plus 5cm}int Network\-::get\-Connexions (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}}\label{classNetwork_ac6ad672f621df7948183b994a5a4d6f9}
+
+
+G\-E\-T\-T\-E\-U\-R. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \-: line number \\
+\hline
+{\em j} & \-: colcolumn number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: value of table connexions at position (i;j) 
+\end{DoxyReturn}
+\hypertarget{classNetwork_aa04fb62a678f2b9729010c5fcbd16b56}{\index{Network@{Network}!Neuron\-Connexions@{Neuron\-Connexions}}
+\index{Neuron\-Connexions@{Neuron\-Connexions}!Network@{Network}}
+\subsubsection[{Neuron\-Connexions}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::\-Neuron\-Connexions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classNetwork_aa04fb62a678f2b9729010c5fcbd16b56}
+complete connexions table randomly in order to connect each neuron with 1000 excitatory neurons and 250 inhibitory neurons \begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classNetwork_a07559592f9709c9ecdc4a2d0134965ec}{\index{Network@{Network}!set\-Connexions@{set\-Connexions}}
+\index{set\-Connexions@{set\-Connexions}!Network@{Network}}
+\subsubsection[{set\-Connexions}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::set\-Connexions (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}}\label{classNetwork_a07559592f9709c9ecdc4a2d0134965ec}
+
+
+S\-E\-T\-T\-E\-U\-R \-: 
+
+it gives the values n to the tab connexions at the position (i;j) 
+\begin{DoxyParams}{Parameters}
+{\em i} & \-: line position \\
+\hline
+{\em j} & \-: column position \\
+\hline
+{\em n} & \-: value given to the position (i;j) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+\hypertarget{classNetwork_a6564e403499533e4f6c254400043fba2}{\index{Network@{Network}!simulation\-Loop@{simulation\-Loop}}
+\index{simulation\-Loop@{simulation\-Loop}!Network@{Network}}
+\subsubsection[{simulation\-Loop}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-::simulation\-Loop (
+\begin{DoxyParamCaption}
+\item[{double}]{tmin, }
+\item[{double}]{tmax}
+\end{DoxyParamCaption}
+)}}\label{classNetwork_a6564e403499533e4f6c254400043fba2}
+
+
+update the network betwen tmin and tmax 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tmin} & \-: minimum time for simulation \\
+\hline
+{\em tmax} & \-: maximum time for simulation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+network.\-hpp\item 
+network.\-cpp\end{DoxyCompactItemize}
